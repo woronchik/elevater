@@ -18,4 +18,12 @@ class Elevator:
             print(f"Лифт опускается на {self.floor} этаж")
 
 
-
+el = Elevator()
+el.up()
+el.up()
+el.up()
+el.down()
+el.down()
+el.down()
+el.up()
+el.up()
