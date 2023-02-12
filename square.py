@@ -1,5 +1,4 @@
 class Square:
-    print('Инициализатор для класса Rect')
     def __init__(self, side=10):
         self.side = side
 
