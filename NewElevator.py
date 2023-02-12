@@ -8,7 +8,7 @@ class NewElevator(Elevator):
         self.move = floor
         self.floor = self.floor
         if self.move > self.max_floor or self.move < self.floor:
-            print('Неправильный номер этажа, выберите от 1 до 10 этажа')
+            return 'Неправильный номер этажа, выберите от 1 до 10 этажа'
         else:
             return f'Лифт отправляется с {self.floor} на {self.move} этаж'
 
@@ -16,7 +16,7 @@ class NewElevator(Elevator):
 
 
 el = NewElevator()
-print(el.move(8))
+print(el.move(11))
 
 
 
